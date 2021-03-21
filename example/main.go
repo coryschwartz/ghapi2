@@ -26,7 +26,7 @@ import (
 )
 
 func main() {
-	config, err := ReadConfig("config.yml")
+	config, err := ReadConfig("example/config.yml")
 	if err != nil {
 		panic(err)
 	}
